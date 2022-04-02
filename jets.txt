@@ -1,1 +1,5 @@
-PassengerJet,Cessna 172,20,100,12000
+FighterJet,F22 Raptor,1500,2000,150000000
+FighterJet,F35 Lightning,1200,1800,110000000
+CargoPlane,C5 Galaxy,580,7200,120000000
+CargoPlane,KC10 Extender,650,4400,88000000
+PassengerPlane,A380 Airbus,730,9400,450000000
