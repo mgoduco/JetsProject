@@ -233,23 +233,3 @@ public class JetsApplication {
 
 }
 
-//	private void writePlanets(String outFileName, AirField airfield) {	// User Story #15
-//		try {
-//			FileWriter fw = new FileWriter(outFileName);
-//			PrintWriter pw = new PrintWriter(fw);
-//			for (AirField index : airfield) {
-//				StringBuilder sb = new StringBuilder();
-//				sb.append(index.getModel());
-//				sb.append('\t');
-//				sb.append(index.getSpeed());
-//				sb.append('\t');
-//				sb.append(index.getRange());
-//				sb.append('\t');
-//				sb.append(index.getPrice());
-//				pw.println(sb);
-//			}
-//			pw.close();
-//		} catch (IOException e) {
-//			e.printStackTrace();
-//		}
-//	}
