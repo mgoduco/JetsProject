@@ -11,14 +11,14 @@ public class PassengerPlane extends Jet {
 
 	@Override
 	public void fly() {
-
+		System.out.println(this.getModel() + " can fly for " + (this.getRange() / this.getSpeed()) + " hours while flying at top speed!");
 	}
+
 
 	@Override
 	public String toString() {
-		return "PassengerPlane [getModel()=" + getModel() + ", getSpeed()=" + getSpeed() + ", getRange()=" + getRange()
-				+ ", getPrice()=" + getPrice() + ", hashCode()=" + hashCode() + ", getClass()=" + getClass()
-				+ ", toString()=" + super.toString() + "]";
+		return "PassengerPlane Model: " + getModel() + ", Speed=" + getSpeed() + ", Range=" + getRange()
+				+ ", Price=" + getPrice() ;
 	}
 
 	@Override
